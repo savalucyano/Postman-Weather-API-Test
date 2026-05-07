@@ -1,0 +1,55 @@
+{
+  "info": {
+    "_postman_id": "b5e8ecc8-f5fb-4e3c-b67d-bf4091d01573",
+    "name": "Weather",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51940679",
+    "_collection_link": "https://go.postman.co/collection/51940679-b5e8ecc8-f5fb-4e3c-b67d-bf4091d01573?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get weather by city name",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.openweathermap.org/data/2.5/weather?q=London&appid=bd22c0fb961b1ba1da54c67a17fcce2f&mode=json&units=metric&lang=en",
+          "protocol": "https",
+          "host": [
+            "api",
+            "openweathermap",
+            "org"
+          ],
+          "path": [
+            "data",
+            "2.5",
+            "weather"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "London"
+            },
+            {
+              "key": "appid",
+              "value": "bd22c0fb961b1ba1da54c67a17fcce2f"
+            },
+            {
+              "key": "mode",
+              "value": "json"
+            },
+            {
+              "key": "units",
+              "value": "metric"
+            },
+            {
+              "key": "lang",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
